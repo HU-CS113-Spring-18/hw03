@@ -49,7 +49,7 @@ All sets carry data, but how much information can be extracted from it? Consider
 
   \part Anti-symmetric relations that follow the rule $(fact\;x,fact\;y)\; \land (fact\;y,fact\;x) \rightarrow fact\;x = fact\;y$ are of special interest to our model. Such pairs, as in the aforementioned antecedent, can be used to express ordered relationships between facts. What is the combined Information Potential of anti-symmetric relations on the non-redundant set? 
   \begin{solution}
-    $2^{(n^2-n)/2}(2^n - 1)| $The $n$ bits of the leading diagonal may be flipped to all configurations except all 1's ($2^n -1$ combinations). Only half of the remaining $n^2 - n$ bits can be flipped freely to preserve anti-symmetry.
+    $3^{(n^2-n)/2}(2^n - 1)| $The $n$ bits of the leading diagonal may be flipped to all configurations except all 1's ($2^n -1$ combinations). Only half of the remaining $n^2 - n$ bits can be flipped freely, or else both can be 0 (there are 3 choices here), to preserve anti-symmetry.
     
   \end{solution}
   
